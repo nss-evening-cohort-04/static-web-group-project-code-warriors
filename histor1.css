@@ -130,7 +130,7 @@ p::first-letter{
   /*border: 1px solid red;*/
 /*  width: 200px;
   height: 300px;*/
-  margin-top: 3%;
+  margin-top: 5%;
   margin-right: 15%;
   border-radius: 20%;
 }
@@ -150,7 +150,7 @@ p::first-letter{
   width: 95%;
   /*border-radius: 5%;*/
   float: left;
-  margin-bottom: 4%;
+  margin-bottom: -8%;
   width: 20%;
 }
 .past2 {
@@ -176,7 +176,9 @@ p::first-letter{
 .main-footer img {
   padding-right: 5px;
 }
-
+.president {
+  text-decoration: underline;
+}
 
 /* Main page content */
 
