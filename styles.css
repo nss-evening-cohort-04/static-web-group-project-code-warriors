@@ -2,6 +2,10 @@
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
+body {
+	color: #8E8E8E;
+}
+
 
 
 /* Main Header styling*/
@@ -90,7 +94,7 @@
 	color: #BAB922;
 	padding: 20px;
 	margin-left: -10px;
-	margin-top: 20%;
+	margin-top: 1%;
 
 }
 
@@ -139,9 +143,10 @@
 .mission {
 	color: #8E8E8E;
 	background-color: #FFFE95;
-	padding: 2% 2% 15% 2%;
+	padding: 2% 2% 5% 2%;
+	margin: auto;
 	margin-top: 5%;
-	margin-left: 11%;
+	
 	width: 75%;
 	border-radius: 5%;
 
@@ -154,6 +159,10 @@
 	font-size: 2.25em;
 }
 
+.letter-big::first-letter {
+	font-size: 150%;
+}
+
 .della {
 	display: inline-block;
 	float: right;
@@ -163,6 +172,41 @@
 	box-shadow: 0 0 8px 8px #FFFE95 inset;
 
 }
+
+.contact-us {
+	margin-top: 5%;
+	text-align: center;
+	font-size: 1.8em;
+	
+}
+
+.contact-us a {
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px 1px #8E8E8E,
+				 1px 1px 1px #8E8E8E;
+}
+
+.contact-us a:hover {
+	color: #E7E7E4;
+}
+
+/* Testimonials Formatting */
+
+.testimonials {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 85%;
+	margin: auto;
+	margin-top: 7%;
+	margin-bottom: 5%; 	 	
+}
+.indiv-test {
+	text-align: center;
+	width: 30%;
+}
+
 
 
 
