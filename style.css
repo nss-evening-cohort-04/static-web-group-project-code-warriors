@@ -1,0 +1,292 @@
+* {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+
+
+/* Main Header styling*/
+
+.main-header {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  background-color: #ADAD87;
+  color: #E7E7E4;
+  height: 200px;
+  margin:  -10px 0 0 -10px;
+  padding-left: 40px;
+  width: 100%;
+}
+
+.main-title {
+  font-size: 4em;
+  margin-bottom: 1%;
+}
+
+
+/* Main navbar styling */
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding: 0;
+  margin-top: 0;
+}
+
+.main-nav ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.main-nav ul li {
+  display: inline-flex;
+  background-color: #E7E7E4;
+  width: 24%;
+
+  text-align: center;
+  color: #BAB922;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #BAB922;
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+.main-nav a:hover {
+  background-color: #BAB922;
+  color: #E7E7E4;
+}
+
+.main-nav a:visited {
+  color: #8E8E8E;
+}
+
+
+/* Footer and Contact info styling */
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  background-color: #E7E7E4;
+  width: 100%;
+  color: #BAB922;
+  padding: 20px;
+  margin-left: -10px;
+  margin-top: 20%;
+
+}
+
+.social, .address, .contact-info {
+  padding: 0 8% 0 5%;
+}
+
+
+.contact-title {
+  font-size: 1.25em;
+}
+.address, .contact-info {
+
+}
+
+.copyright {
+  width: 100%;
+  text-align: right;
+  margin: 0 2% 0 0;
+}
+
+.wrap {
+  height: 100vh;
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: #BAB922;
+}
+
+.main-footer a:hover {
+  color: #FFFD00;
+}
+
+.main-footer a:visited {
+  color: #8E8E8E;
+}
+
+.main-footer img {
+  padding-right: 5px;
+}
+
+
+/* Main page content */
+
+.mission {
+  color: #8E8E8E;
+  background-color: #FFFE95;
+  padding: 2% 2% 15% 2%;
+  margin-top: 5%;
+  margin-left: 11%;
+  width: 75%;
+  border-radius: 5%;
+
+}
+
+.mission-title {
+  color: white;
+  text-shadow: 1px 1px 1px #8E8E8E,
+         1px 1px 1px #8E8E8E;
+  font-size: 2.25em;
+}
+
+.della {
+  display: inline-block;
+  float: right;
+  margin: 5px 10px;
+  opacity: 0.9;
+  border-radius: 5%;
+  box-shadow: 0 0 8px 8px #FFFE95 inset;
+
+}
+
+/* This is employee CSS*/
+
+
+.kitty {
+  display: inline-block;
+  float: center;
+  width: 80%;
+  background: #B8B8B8;
+  border-radius: 20px;
+  border-bottom: 1px solid gold;
+  margin-top: 25px;
+  margin-left: 7%;
+  margin-bottom: 20px;
+  padding: 2%;
+}
+
+.kitty h3, h2{
+  text-align: center;
+}
+
+.kitty img {
+  display: inline-block;
+  border: 5px dashed #FFFE95;
+  border-radius: 20px;
+  margin-top: 2px;
+  margin-left: 32%;
+  margin-right: 22%;
+}
+
+
+.employee {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.employee-name {
+  text-align: center;
+
+}
+
+
+  .puppy {
+  border: 2px solid #B8B8B8;
+  background: #ADAD87;
+  border-radius: 20px;
+  width: 45%;
+  margin-bottom: 10px;
+}
+ .puppy img {
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 30%;
+  margin-right: 20%;
+ }
+
+ .benny {
+  border: 2px solid #B8B8B8;
+  background: #ADAD87;
+  border-radius: 20px;
+  width: 45%;
+  margin-bottom: 10px;
+
+ }
+
+ .benny img {
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 30%;
+  margin-right: 20%;
+ }
+
+ .boom {
+  border: 2px solid #B8B8B8;
+  background: #ADAD87;
+  border-radius: 20px;
+  width: 45%;
+
+ }
+
+ .boom img {
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 30%;
+  margin-right: 20%;
+ }
+
+.serious {
+  border: 2px solid #B8B8B8;
+  background: #ADAD87;
+  border-radius: 20px;
+  width: 45%;
+ }
+
+ .serious img {
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 30%;
+  margin-right: 20%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
